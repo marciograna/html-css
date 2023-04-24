@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>cadastro de produtos</title>
+    <link rel="stylesheet" href="css/cad-login.css">
+</head>
+<body>
+    <main>
+        <div id="login">
+            <h1>Cadastro de produtos</h1>
+            <p>informe os dados do produto que deseja adicionar</p>
+            <form action="cadastro.php">
+                <div id="campo"> 
+                    <input type="number" name="cdproduto" id="cdproduto" class="input" placeholder="Código do produto">
+                </div>
+                <div id="campo"> 
+                    <input type="text" name="desprod" id="desprod" class="input" placeholder="Descrição do produto">
+                </div>
+                <div id="campo"> 
+                    <input type="number" name="estin" id="estin" class= "input" placeholder="Estoque inicial">
+                </div>
+                <div id="campo"> 
+                    <input type="number" name="estat" id="estat" class="input" placeholder="Estoque atual">
+                </div>
+                <div id="campo"> 
+                    <input type="text" name="forn" id="forn" class="input" placeholder="Fornecedor">
+                </div>
+                <div id="campo"> 
+                    <input type="number" name="prcomp" id="prcomp" class="input" placeholder="Preço de compra do produto">
+                </div>  
+                <div id="campo"> 
+                    <input type="numer" name="pvenda" id="pvenda" class="input" placeholder="Preço de venda do produto">
+                </div>                
+                <input type="submit" value="Cadastrar produto">
+            </form>
+        </div>
+
+</main>
+</body>
+</html>

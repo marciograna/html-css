@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro login</title>
+    <link rel="stylesheet" href="css/cad-login.css">
+</head>
+<body>
+        <main>
+                <div id="login">
+                    <h1>Cadastre-se</h1>
+                    <p>informe seus dados para realizar seu cadastro</p>
+                    <form action="cadastro.php">
+                        <div id="campo"> 
+                            <input type="text" name="nome" id="nome" class="input" placeholder="nome">
+                        </div>
+                        <div id="campo"> 
+                            <input type="text" name="nome" id="nome" class="input" placeholder="sobrenome">
+                        </div>
+                        <div id="campo"> 
+                            <input type="number" name="cpf" id="cpf" class= "input" placeholder="CPF">
+                        </div>
+                        <div id="campo"> 
+                            <input type="number" name="rg" id="rg" class="input" placeholder="RG">
+                        </div>
+                        <div id="campo"> 
+                            <input type="email" name="email" id="email" class="input" placeholder="e-mail">
+                        </div>
+                        <div id="campo"> 
+                            <input type="password" name="senha" id="nome" class="input" placeholder="senha">
+                        </div>
+                        <div id="check">
+                            <input type="checkbox" name="emails" id="iemails" class="emails"><label for="iemails">Quero receber e-mails com novidades e promoções.</label> <br>
+                            <input type="checkbox" name="termos" id="itermos" class="termos"><label for="itermos">Estou ciente e <strong>CONCORDO</strong> com os termos de aceite e políticas de privacidade.</label>
+                            
+                    </div>
+                        <input type="submit" value="finalizar cadastro">
+                    </form>
+                </div>
+
+        </main>
+</body>
+</html>

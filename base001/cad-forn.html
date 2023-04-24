@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornecedor</title>
+    <link rel="stylesheet" href="css/cad-login.css">
+</head>
+<body>
+    <main>
+        <div id="login">
+            <h1>Cadastro de fornecedores</h1>
+            <p>informe os dados do produto que deseja adicionar</p>
+            <form action="cadastro.php">
+                <div id="campo"> 
+                    <input type="number" name="codfornedor" id="codfornecdor" class="input" placeholder="Código do fornecedor">
+                </div>
+                <div id="campo"> 
+                    <input type="text" name="nomfor" id="nomfor" class="input" placeholder="Nome do fornecedor">
+                </div>
+                <div id="campo"> 
+                    <input type="number" name="cnpj" id="cnpj" class= "input" placeholder="CNPJ do fornecedor">
+                </div>
+                <div id="campo"> 
+                    <input type="tel" name="telfor" id="telfor" class="input" placeholder="Telefone do fornecedor">
+                </div>
+                <div id="campo"> 
+                    <input type="email" name="eforn" id="eforn" class="input" placeholder="E-mail do fornecedor">
+                </div>
+                <div id="campo"> 
+                    <input type="text" name="cidforn" id="cidforn" class="input" placeholder="Cidade onde reside o fornecedor">
+                </div>  
+                         
+                <input type="submit" value="Cadastrar fornecedor">
+            </form>
+        </div>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+/*
+verde: #00A202
+preto: #303030
+vermelho: #FF0000
+branco: #FFFFFF
+*/
+
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #303030;
+}
+
+main {
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    border: none;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+div#login > h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #FF0000;
+    color: #FFFFFF
+}
+
+div#login > p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+    width: 90%;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    
+}
+
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 30px
+
+    
+}
+
+div#check {
+    width: 90%;
+    margin-left: 25px;
+    
+}
+
